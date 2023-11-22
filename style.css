@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .card{
@@ -56,6 +57,13 @@
     font-size: 15px;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
+}
+
+.attribution{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    margin: auto;
 }
 
 @media (max-width: 500px) {
